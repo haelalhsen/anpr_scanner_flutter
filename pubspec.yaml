@@ -1,0 +1,36 @@
+name: anpr_scanner_flutter
+description: "A Flutter package for Automatic Number Plate Recognition (ANPR) using TFLite models."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.11.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Image handling
+  image_picker: ^1.2.1
+  image: ^4.7.2
+
+  # Camera for real-time detection
+  camera: ^0.11.3
+
+  # File system
+  path_provider: ^2.1.5
+
+  # TFLite for model inference
+  tflite_flutter: ^0.12.1
+
+  # Permissions
+  permission_handler: ^11.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  # No bundled assets — consumer provides their own .tflite model files

@@ -1,0 +1,38 @@
+name: example
+description: "Comprehensive example for anpr_scanner_flutter package."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The package under development
+  anpr_scanner_flutter:
+    path: ../
+
+  # For the low-level example
+  image_picker: ^1.2.1
+  image: ^4.7.2
+  camera: ^0.11.3
+  permission_handler: ^11.3.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Place your .tflite model files here before running.
+    # Required files:
+#       assets/models/detection.tflite
+#       assets/models/ocr.tflite
+    - assets/models/
