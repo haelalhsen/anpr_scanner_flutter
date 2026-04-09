@@ -29,3 +29,10 @@ migrate_working_dir/
 .flutter-plugins-dependencies
 /build/
 /coverage/
+
+# Ignore a specific file
+CLAUDE.md
+dev_plan.md
+
+# Ignore a whole directory (and everything inside it)
+lib-reference/
