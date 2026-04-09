@@ -1,7 +1,9 @@
 name: anpr_scanner_flutter
 description: "A Flutter package for Automatic Number Plate Recognition (ANPR) using TFLite models."
 version: 0.0.1
-homepage:
+homepage: https://github.com/haelalhsen/anpr_scanner_flutter
+repository: https://github.com/haelalhsen/anpr_scanner_flutter
+issue_tracker: https://github.com/haelalhsen/anpr_scanner_flutter/issues
 
 environment:
   sdk: ^3.11.4

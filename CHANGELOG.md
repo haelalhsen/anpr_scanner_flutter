@@ -1,4 +1,4 @@
-## 1.0.0
+## 0.0.1
 
 * Initial release of the `anpr_scanner_flutter` package.
 
